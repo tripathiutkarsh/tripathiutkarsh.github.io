@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Portfolio</title>
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Bootstrap 4 Portfolio/Resume Theme for Developers">
+    <meta name="author" content="Utkarsh Tripathi">    
+    <link rel="shortcut icon" href="favicon.ico">  
+    
+    <link href='https://fonts.googleapis.com/css?family=Lato:300,400,300italic,400italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'> 
+    
+    <!-- FontAwesome JS -->
+    <script defer src="assets/fontawesome/js/all.js"></script>
+    
+    <!-- Global CSS -->
+    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">   
+    
+    <!-- github calendar css -->
+    <link rel="stylesheet" href="assets/plugins/github-calendar/dist/github-calendar.css">
+    <!-- github activity css -->    
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">
+    <link rel="stylesheet" href="assets/plugins/github-activity/github-activity-0.1.5.min.css">
+    
+    <!-- Theme CSS -->  
+    <link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> 
+    <script> 
+    $(function(){
+      $("#includedContent").load("assets/pages/linkedin_rec.html"); 
+    });
+    </script>
+</head> 
+
+<body>
+    <!-- ******HEADER****** --> 
+    <header class="header">
+        <div class="container clearfix">                       
+            <img class="profile-image img-fluid float-left rounded-circle" src="assets/images/profile.png" alt="profile image" />
+            <div class="profile-content float-left">
+                <h1 class="name">Utkarsh Tripathi</h1>
+                <h2 class="desc">Full Stack Developer</h2>   
+                <ul class="social list-inline">
+                    <li class="list-inline-item"><a href="https://www.linkedin.com/in/tripathiutkarsh"  target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+                    <li class="list-inline-item"><a href="https://github.com/tripathiutkarsh"  target="_blank"><i class="fab fa-github-alt"></i></a></li>
+                </ul> 
+            </div><!--//profile-->
+            
+        </div><!--//container-->
+    </header><!--//header-->
+    
+    <div class="container sections-wrapper">
+        <div class="row">
+            <div class="primary col-lg-8 col-12">
+                <section class="about section">
+                    <div class="section-inner shadow-sm rounded">
+                        <h2 class="heading">About Me</h2>
+                        <div class="content">
+                            <p>More than 7 years of experience in large-scale Cloud-based Java/J2EE and SOA/EAI implementations using SOAP and RESTful Web Services, Big Data, Enterprise Search using Apache Solr, JSF, Spring, Spring Boot Microservices, Amazon AWS S3, and Oracle SOA Suite, etc. with Agile (Scrum & Kanban). Currently working on Machine Learning and Deep Learning Models.</p>
+                         
+                        </div><!--//content-->
+                    </div><!--//section-inner-->                 
+                </section><!--//section-->
+    
+               <section class="latest section">
+                    <div class="section-inner shadow-sm rounded">
+                        <h2 class="heading">Latest Projects</h2>
+                        <div class="content">    
+                                               
+                            <div class="item featured text-center">
+                                
+                                <div class="featured-image has-ribbon">
+                                    <a href="https://www.kaggle.com/c/landmark-recognition-2020" target="_blank">
+                                    <img class="img-fluid project-image rounded shadow-sm" src="assets/images/projects/project_featured.png" alt="Google Landmark Recognition 2020" />
+                                    </a>
+                                    <div class="ribbon">
+                                        <div class="text">New</div>
+                                    </div>
+                                </div>
+                                
+                                <h3 class="title mb-3"><a href="https://www.kaggle.com/c/landmark-recognition-2020" target="_blank">Google Landmark Recognition 2020</a></h3>
+                                    
+                                <div class="desc text-left">                                    
+                                    <p>Image retrieval is a fundamental problem in computer vision: given a query image, can we find similar images in a
+                                        large database? This is especially important for query images containing landmarks, which accounts for a large
+                                        portion of what people like to photograph. In this project, the developed models are expected to retrieve relevant
+                                        database images to a given query image (ie, the model should retrieve database images containing the same
+                                        landmark as the query). This challenge is organized in conjunction with the Landmark Recognition Challenge
+                                        2020. This year's project is structured in a representation learning format: we will create a model that extracts a
+                                        feature embedding for the images. Kaggle will run the model on a held-out test set, perform a
+                                        k-nearest-neighbors lookup, and score the resulting embedding quality with mean average precision.</p>
+                                </div><!--//desc-->         
+                               
+                            </div><!--//item-->
+                            <hr class="divider" />
+                            <div class="item row">
+                                <a class="col-md-4 col-12" href="#" target="_blank">
+                                <img class="img-fluid project-image rounded shadow-sm" src="assets/images/projects/project-1.jpeg" alt="Naval Mine Detection" />
+                                </a>
+                                <div class="desc col-md-8 col-12">
+                                    <h3 class="title"><a href="#" target="_blank">Naval Mine Detection</a></h3>
+                                    <p class="mb-2">Identified magnetic naval mines among rocks by processing and analyzing Sonar data for submarines. Processed multiple observations of sonar data for mines and rocks each with 60 time samples which either indicate the presence of a mine (actually a hollow pipe) or a rock (actually a rock).</p>
+                                    <p><a class="more-link" href="#" target="_blank"><i class="fas fa-external-link-alt"></i>Find out more</a></p>
+                                </div><!--//desc-->                          
+                            </div><!--//item-->
+                            
+                            <div class="item row">
+                                <a class="col-md-4 col-12" href="#" target="_blank">
+                                <img class="img-fluid project-image rounded shadow-sm" src="assets/images/projects/project-2.png" alt="project name" />
+                                </a>
+                                <div class="desc col-md-8 col-12">
+                                    <h3 class="title"><a href="#" target="_blank">Detection of Counterfeit Money</a></h3>
+                                    <p class="mb-2">Developed an application to aid in detection of counterfeit bills. Analyzed correlations in data through a statistical study of each variable. Determined which variables are most likely to play a significant role in predicting the dependent variable, in this case a genuine bill.</p>
+                                    <p><a class="more-link" href="#" target="_blank"><i class="fas fa-external-link-alt"></i>Find out more</a></p>
+                                </div><!--//desc-->                          
+                            </div><!--//item-->
+                            
+                             <div class="item row">
+                                <a class="col-md-4 col-12" href="#" target="_blank">
+                                <img class="img-fluid project-image rounded shadow-sm" src="assets/images/projects/project-3.png" alt="project name" />
+                                </a>
+                                <div class="desc col-md-8 col-12">
+                                    <h3 class="title"><a href="#" target="_blank">Hybrid Database System for Library Management</a></h3>
+                                    <p class="mb-2">Designed a Logical Data Model after research and interviews with stakeholders. Developed a Business Intelligence module. Developed a hybrid system with SQL and NoSQL Databases, using Transact-SQL in MSSQL Server and N1QL in Couchbase. Explored Analytics through Couchbase for intelligent reports and meaningful data visualization.</p>
+                                    <p><a class="more-link" href="#" target="_blank"><i class="fas fa-external-link-alt"></i>Find out more</a></p>
+                                </div><!--//desc-->                          
+                            </div><!--//item-->
+                            
+                            <div class="item row">
+                                <a class="col-md-4 col-12" href="#" target="_blank">
+                                <img class="img-fluid project-image rounded shadow-sm" src="assets/images/projects/project-4.png" alt="project name" />
+                                </a>
+                                <div class="desc col-md-8 col-12">
+                                    <h3 class="title"><a href="#" target="_blank">Employee Retention Prediction</a></h3>
+                                    <p class="mb-2">Created a distributed data processing system in the cloud using Amazon S3, Amazon EMR service and HR dataset from Kaggle. Analyzed and displayed detailed analytics reports and visualizations using Python on Amazon SageMaker.</p>
+                                    <p><a class="more-link" href="#" target="_blank"><i class="fas fa-external-link-alt"></i>Find out more</a></p>
+                                </div><!--//desc-->                          
+                            </div><!--//item-->                            
+                            <div class="item row">
+                                <a class="col-md-4 col-12" href="#" target="_blank">
+                                <img class="img-fluid project-image rounded shadow-sm" src="assets/images/projects/project-5.png" alt="project name" />
+                                </a>
+                                <div class="desc col-md-8 col-12">
+                                    <h3 class="title"><a href="#" target="_blank">Segmentation of Photovoltaic Module Cells in Electroluminescence Images</a></h3>
+                                    <p class="mb-2">Designed and developed a web application to efficiently store and manage EL images and the defect analysis data. Identified defective cells in solar panels through Image Processing. Built scripts to generate reports and send out notifications. Automated the process of Image examination and categorization of panels according to the defect diagnosis.</p>
+                                    <p><a class="more-link" href="#" target="_blank"><i class="fas fa-external-link-alt"></i>Find out more</a></p>
+                                </div><!--//desc-->                          
+                            </div><!--//item-->
+                            <div class="item row">
+                                <a class="col-md-4 col-12" href="#" target="_blank">
+                                <img class="img-fluid project-image rounded shadow-sm" src="assets/images/projects/project-6.png" alt="project name" />
+                                </a>
+                                <div class="desc col-md-8 col-12">
+                                    <h3 class="title"><a href="#" target="_blank">Twofish Crypto-Core</a></h3>
+                                    <p class="mb-2">Designed and developed an encryption core based on the Twofish encryption algorithm.</p>
+                                    <p><a class="more-link" href="#" target="_blank"><i class="fas fa-external-link-alt"></i>Find out more</a></p>
+                                </div><!--//desc-->                          
+                            </div><!--//item-->
+                            <div class="item row">
+                                <a class="col-md-4 col-12" href="#" target="_blank">
+                                <img class="img-fluid project-image rounded shadow-sm" src="assets/images/projects/project-7.png" alt="project name" />
+                                </a>
+                                <div class="desc col-md-8 col-12">
+                                    <h3 class="title"><a href="#" target="_blank">GPS location Data Analysis collected via GSM channel</a></h3>
+                                    <p class="mb-2">Programmed an AVR controller to interface with an active GPS module and a GSM handset. Process the NMEA data into readable coordinates and send it through the GSM channel (SMS).</p>
+                                    <p><a class="more-link" href="#" target="_blank"><i class="fas fa-external-link-alt"></i>Find out more</a></p>
+                                </div><!--//desc-->                          
+                            </div><!--//item-->
+                        </div><!--//content-->  
+                    </div><!--//section-inner-->                
+                </section><!--//section-->
+                
+                <section class="experience section">
+                    <div class="section-inner shadow-sm rounded">
+                        <h2 class="heading">Work Experience</h2>
+                        <div class="content">
+                            <div class="item">
+                                <h3 class="title">Graduate Teaching Assistant - <span class="place"><a href="#">Arizona State University</a></span> <span class="year">(Aug 2019 - Present)</span></h3>
+                                <p>IFT 433 - Intermediate Database Management Systems</p>
+                                <p>IFT 200 - Information Modeling, Storage and Retrieval</p>
+                                <p>I work with Prof. Pramod Kumar and Prof. Robert Rucker for this course and assist them with instructional responsibilities. I have 66 students in the course and I help them out in case they have any doubts regarding the subject. I also help out the professors with grading the exams.</p>
+                            </div><!--//item-->
+                            <div class="item">
+                                <h3 class="title">Senior Design Engineer - <span class="place"><a href="#">Schneider Electric</a></span> <span class="year">(Sept 2017 - July 2019)</span></h3>
+                                <p>Designed and developed an enterprise search, indexing, selection, configuration and analytics platform for Selector-Configurators backing the e-Commerce domain as a part of an IoT architecture and platform, EcoStruxure. Developed modules to localize selections and configurations for a specific region, configuring locale-specific components. Created and maintained a development, testing and deployment pipeline on Jenkins along with JMeter.</p>
+                            </div><!--//item-->
+                            <div class="item">
+                                <h3 class="title">Full-Stack Software Developer - <span class="place"><a href="#">Tata Consultancy Services</a></span> <span class="year">(Jan 2013 - Aug 2017)</span></h3>
+                                <p>Designed and developed Centralized Web Self Care (CWSC) Portal for customers to integrate data from various applications on different platforms. Maintained the deployment pipeline through Git and Unix scripts on HP-UX. Automated the testing pipeline. Developed another project called tungsten to run analytics on the data for offer recommendation and insightful BI reports. Set up an Enterprise Application Integration Oracle 12c Service Oriented Architecture (SOA) infrastructure with design and development of multiple BPEL processes. Integrated applications using BPEL Processes and SOAP Web Services. Designed and developed Release Management Portal, a Change-Request, Bug-Fix, Deployment Tracking and Management Automation System which generates periodic business intelligence reports and notifies stakeholders through Email, SMS. Automated all the modules in a telecommunication organization, Bharat Tele-Services with online customer registrations, billing and bill analysis, invoice/bill PDF generation, online helpdesk, and internationalization, etc.</p>
+                            </div><!--//item-->
+                            <div class="item">
+                                <h3 class="title">Technical Support Engineer - <span class="place"><a href="#">HCL Technologies</a></span> <span class="year">(June 2012 - Dec 2012)</span></h3>
+                                <p>AT&T Technical Support: Anomaly detection through analysis of network traffic data for AT&T to determine and troubleshoot outages. Generated reports by analyzing logs.</p>
+                            </div><!--//item-->
+                            
+                        </div><!--//content-->  
+                    </div><!--//section-inner-->                 
+                </section><!--//section-->
+                
+                <section class="testimonials section">
+                    <div class="section-inner shadow-sm rounded">
+                        <h2 class="heading">Testimonials</h2>
+                        <div id="includedContent"></div>
+                    </div><!--//secton-inner-->
+                </section><!--//section-->
+            </div><!--//primary-->
+            <div class="secondary col-lg-4 col-12">
+                 <aside class="info aside section">
+                    <div class="section-inner shadow-sm rounded">
+                        <h2 class="heading sr-only">Basic Information</h2>
+                        <div class="content">
+                            <ul class="list-unstyled">
+                                <li><i class="fas fa-map-marker-alt"></i><span class="sr-only">Location:</span>Tempe, Arizona, US</li>
+                                <li><i class="fas fa-envelope"></i><span class="sr-only">Email:</span><a href="#">tripathiutkarsh@outlook.in</a></li>
+                                <li><i class="fas fa-link"></i><span class="sr-only">Website:</span><a href="#">https://www.utkarshtripathi.com</a></li>
+                            </ul>
+                        </div><!--//content-->  
+                    </div><!--//section-inner-->                 
+                </aside><!--//aside-->
+                
+                <aside class="skills aside section">
+                    <div class="section-inner shadow-sm rounded">
+                        <h2 class="heading">Skills</h2>
+                        <div class="content">
+                            <p class="intro">
+                                </p>
+                            
+                            <div class="skillset">
+                               
+                                <div class="item">
+                                    <h3 class="level-title">Java/J2EE &amp; Spring<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="You can use the tooltip to explain more about your skill level..."><i class="fas fa-info-circle"></i>Expert</span></h3>
+                                    <div class="level-bar">
+                                        <div class="level-bar-inner" data-level="96%">
+                                        </div>                                      
+                                    </div><!--//level-bar-->                                 
+                                </div><!--//item-->
+                                <div class="item">
+                                    <h3 class="level-title">Python<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="You can use the tooltip to explain more about your skill level..."><i class="fas fa-info-circle"></i>Working</span></h3>
+                                    <div class="level-bar">
+                                        <div class="level-bar-inner" data-level="96%">
+                                        </div>                                      
+                                    </div><!--//level-bar-->                                 
+                                </div><!--//item-->
+                                <div class="item">
+                                    <h3 class="level-title">Scala &amp; Spark<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="You can use the tooltip to explain more about your skill level..."><i class="fas fa-info-circle"></i>Working</span></h3>
+                                    <div class="level-bar">
+                                        <div class="level-bar-inner" data-level="96%">
+                                        </div>                                      
+                                    </div><!--//level-bar-->                                 
+                                </div><!--//item-->
+                                <div class="item">
+                                    <h3 class="level-title">Javascript<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="You can use the tooltip to explain more about your skill level..."><i class="fas fa-info-circle"></i>Beginner</span></h3>
+                                    <div class="level-bar">
+                                        <div class="level-bar-inner" data-level="96%">
+                                        </div>                                      
+                                    </div><!--//level-bar-->                                 
+                                </div><!--//item-->                            
+                                <div class="item">
+                                    <h3 class="level-title">Unix Shell Scripting<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="You can use the tooltip to explain more about your skill level..."><i class="fas fa-info-circle"></i>Pro</span></h3>
+                                    <div class="level-bar">
+                                        <div class="level-bar-inner" data-level="85%">
+                                        </div>                                      
+                                    </div><!--//level-bar-->                                 
+                                </div><!--//item-->
+                                
+                                <p><a class="more-link" href="#"><i class="fas fa-external-link-alt"></i>More on GitHub</a></p> 
+                            </div>              
+                        </div><!--//content-->  
+                    </div><!--//section-inner-->                 
+                </aside><!--//section-->
+                
+                <aside class="education aside section">
+                    <div class="section-inner shadow-sm rounded">
+                        <h2 class="heading">Education</h2>
+                        <div class="content">
+                            <div class="item">                      
+                                <h3 class="title"><i class="fas fa-graduation-cap"></i> Master of Science </h3>
+                                <h4 class="university">Information Technology </h4>
+                                <h4 class="university"><a href="http://www.asu.edu" target="_blank">Arizona State University</a><span class="year"> (2019-2021)</span></h4>
+                            </div><!--//item-->
+                            <div class="item">
+                                <h3 class="title"><i class="fas fa-graduation-cap"></i> Bachelor of Technology </h3>
+                                <h4 class="university">Electronics & Communication Engineering</h4>
+                                <h4 class="university"><a href="https://aktu.ac.in" target="_blank">Gautam Buddh Technical University </a><span class="year"> (2008-2012)</span></h4>
+                                <h4 class="university"><span class="year"><i>currently known as</i></span></h4>
+                                <h4 class="university"><a href="https://aktu.ac.in" target="_blank">Dr. A.P.J. Abdul Kalam Technical University (AKTU)</a></h4>
+                                <h4 class="university"><span class="year"><i>formerly known as</i></span></h4>
+                                <h4 class="university"><a href="https://aktu.ac.in" target="_blank">Uttar Pradesh Technical University (UPTU)</a></h4>
+                            </div><!--//item-->
+                        </div><!--//content-->
+                    </div><!--//section-inner-->
+                </aside><!--//section-->
+                            
+                <aside class="languages aside section">
+                    <div class="section-inner shadow-sm rounded">
+                        <h2 class="heading">Languages</h2>
+                        <div class="content">
+                            <ul class="list-unstyled">
+
+                                <li class="item">
+                                    <span class="title"><strong>English:</strong></span>
+                                    <span class="level">Professional Proficiency <br class="visible-sm visible-xs"/><i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star-half"></i></span>
+                                </li><!--//item-->
+                                <li class="item">
+                                    <span class="title"><strong>Hindi/Urdu:</strong></span>
+                                    <span class="level">Native Speaker <br class="visible-xs"/><i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> </span>
+                                </li><!--//item-->
+                                <li class="item">
+                                    <span class="title"><strong>Punjabi:</strong></span>
+                                    <span class="level">Fluent <br class="visible-xs"/><i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> </span>
+                                </li><!--//item-->
+                            </ul>
+                        </div><!--//content-->
+                    </div><!--//section-inner-->
+                </aside><!--//section-->
+                
+                <aside class="list music aside section">
+                    <div class="section-inner shadow-sm rounded">
+                        <h2 class="heading">Favourite coding music</h2>
+                        <div class="content">
+                            <ul class="list-unstyled">
+                                <li><i class="fas fa-headphones"></i> <a href="https://soundcloud.com/burakyeter/burakyeter-tuesday" target="_blank">Tuesday - Burak Yeter ft. Danelle Sandoval</a></li>
+                                <li><i class="fas fa-headphones"></i> <a href="https://soundcloud.com/jp-barraza/daft-punk-instant-crush-ft"  target="_blank">Instant Crush - Daft Punk ft. Julian Casablancas</a></li>
+                                <li><i class="fas fa-headphones"></i> <a href="https://soundcloud.com/50_cent/in-da-club-2"  target="_blank">In Da Club - 50 Cent</a></li>
+                                <li><i class="fas fa-headphones"></i> <a href="https://soundcloud.com/dj-venom-6/09-eve-let-me-blow-ya-mind"  target="_blank">Let Me Blow Ya Mind - Eve ft. Gwen Stefani</a></li>
+                            </ul>
+                        </div><!--//content-->
+                    </div><!--//section-inner-->
+                </aside><!--//section-->
+                
+                <aside class="list conferences aside section">
+                    <div class="section-inner shadow-sm rounded">
+                        <h2 class="heading">Conferences</h2>
+                        <div class="content">
+                            <ul class="list-unstyled">
+                                <li><i class="far fa-calendar-alt"></i> <a href="#" target="_blank">MECON 2011</a> (Noida, India)</li>
+                                <li><i class="far fa-calendar-alt"></i> <a href="#">Great International Developer Summit 2018</a> (Bangalore, India)</li>
+                            </ul>
+                        </div><!--//content-->
+                    </div><!--//section-inner-->
+                </aside><!--//section-->
+            </div><!--//secondary-->    
+        </div><!--//row-->
+    </div><!--//masonry-->
+    
+    <!-- ******FOOTER****** --> 
+    <footer class="footer">
+        <div class="container text-center">
+                <small class="copyright">Copyright</small>
+        </div><!--//container-->
+    </footer><!--//footer-->     
+</body>
+</html>
